@@ -115,7 +115,7 @@ header nav:hover > a:not(:hover) {
     padding: 1.8rem;
     border-radius:2rem;
     
-    box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);;
+    box-shadow: 0 2rem 3rem rgba(11, 11, 22, 0.18);;
     transition: all .3s ease;
 }
 
@@ -143,7 +143,7 @@ header nav:hover > a:not(:hover) {
   #games{
     margin-top: 4px;
     text-align: center;
-    padding: 30px;
+    padding: 25px;
     font-size: 50px;
 
   }

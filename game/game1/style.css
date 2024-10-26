@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f0f8ff;
+    background-color:antiquewhite;
     margin: 0;
     padding: 0;
 }
@@ -41,4 +44,10 @@ button {
     border: none;
     cursor: pointer;
     border-radius: 5px;
+}
+
+#find{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    
 }

@@ -1,7 +1,7 @@
 const hazards = [
-    { id: 'knife', top: '80%', left: '30%', danger: 'Knives can cause serious cuts. Keep them out of reach.' },
+    { id: 'knife2', top: '80%', left: '30%', danger: 'Knives can cause serious cuts. Keep them out of reach.' },
     { id: 'stove', top: '85%', left: '90%', danger: 'A hot stove can cause burns. Be careful around it.' },
-    { id: 'chemicals', top: '65%', left: '55%', danger: 'Cleaning chemicals can be poisonous. Store them safely.' }
+    { id: 'chemicals2', top: '65%', left: '53%', danger: 'Cleaning chemicals can be poisonous. Store them safely.' }
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
