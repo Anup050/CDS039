@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 5%;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+}
+header h1 {
+    font-size: 40px;
+    color: white;
+}
+header nav {
+    display: flex;
+    gap: 30px;
+}
+header nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 99px;
+    transition: 0.3s;
+    color: white;
+}
+header nav a.active {
+    background: #5247B9;
+}
+header nav a:hover {
+    background: #5247B9;
+}
+header nav:hover > a:not(:hover) {
+    background: none;
+}
+
+.home {
+    display: flex;
+    height: 100dvh;
+    background: linear-gradient(to top, #D2E2FB 30%, #86A8DB);
+    position: relative;
+    overflow: hidden;
+    background-image: url('./assets/child.jpg');
+    background-size: cover;
+}
+
+.home img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    pointer-events: none;
+    
+}
+
+.home .title {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 90px;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.about {
+    padding: 50px;
+    background: linear-gradient(to top, #D2E2FB 30%, #86A8DB);
+    
+    color: white;
+    position: relative;
+    z-index: 100;
+}
+.about h1 {
+    font-size: 40px;
+}
+
+.main{
+    border: 10px solid;
+    transition: 6s;
+    width: 100%;
+    height:auto;
+    background-color: aliceblue;
+}
+
+.Card{
+    display: grid;
+    width: 50%;
+    padding: 20px;
+  
+    display: inline-block;
+    display: flex;
+    gap: 8rem;
+
+}
+
+.safety{
+    float: left;
+    width: 50%; 
+}
+
+
+ .Card>div{
+    background-color: #fff;
+    padding: 1.8rem;
+    border-radius:2rem;
+    
+    box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);;
+    transition: all .3s ease;
+}
+
+ .Card > div:hover{
+    box-shadow: none;
+}
+  
+.b1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding:10px;
+    cursor: pointer;
+    border-radius: 15%;
+    transition-delay: 0.1s;
+    font-size: 20px;
+    margin-top: 30px;
+    color: white;
+    margin-left: 85px;
+  }
+
+  .b1:hover{
+    background-color: #86A8D8;
+  }
+  
+
+  #games{
+    margin-top: 4px;
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+
+  }
+
+.contact {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    text-align: center;
+    color: #333;
+}
+
+.contact .heading {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-form {
+    max-width: 2000px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.contact-form h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.contact-form .box {
+    width: 100%;
+    padding: 6px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    color: #555;
+}
+
+.contact-form .box:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.contact-form .btn {
+    width: 10%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form .btn:hover {
+    background-color: #0056b3;
+}
+

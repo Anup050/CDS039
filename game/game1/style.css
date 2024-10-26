@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+#room {
+    width: 80%;
+    margin: 20px auto;
+    position: relative;
+    height: 400px;
+    border: 2px solid #ccc;
+    background-image: url('room.jpg');
+    background-size: cover;
+}
+
+.hazard {
+    position: absolute;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    opacity: 500%;
+    mix-blend-mode: multiply;
+
+}
+
+#message {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: green;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}

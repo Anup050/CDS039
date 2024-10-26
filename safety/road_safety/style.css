@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+  }
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+    background-color: antiquewhite;
+  }
+  .art {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    background-size: cover;
+  }
+
+
+p{
+  font-size: 25px;
+}
+
+h1{
+  font-size: 40px;
+}
+
+#road{
+  font-size: 80px;
+}
